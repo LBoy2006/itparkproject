@@ -2,23 +2,28 @@ package lesson4;
 
 public class Lesson4 {
     public static void main(String[] args) {
-        System.out.println(koren(1000));
+        koren(1001);
+        koren(-5);
+        koren(1024);
     }
 
     public static int koren(int chislo) {
         int n1 = chislo;
         if (chislo < 0) {
-            System.out.println("Отрицательное число не имеет квдратных корней");
+            System.out.println("Отрицательное число " + chislo + " не имеет квдратных корней");
 
         } else if (chislo >= 0) {
-            while (chislo != n1 * n1) {
+            while (n1 != -1) {
                 n1 = n1 - 1;
-
+                if (chislo == n1 * n1) {
+                    System.out.println("Квадратный корень числа " + chislo + " равен " + n1);
+                    break;
                 }
             }
-        } else if (n1 < 0){
-            System.out.println("Число не имеет целых квадратных корней");
         }
-        return n1;
+        if (n1 == -1) {
+            System.out.println("Число " + chislo + " не имеет целых квадратных корней");
+        }
+        return chislo;
     }
 }
