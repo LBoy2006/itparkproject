@@ -2,7 +2,7 @@ package lesson4;
 
 public class Lesson4 {
     public static void main(String[] args) {
-        koren(1001);
+        koren(47);
         koren(-5);
         koren(1024);
     }
@@ -14,11 +14,11 @@ public class Lesson4 {
 
         } else if (chislo >= 0) {
             while (n1 != -1) {
-                n1 = n1 - 1;
                 if (chislo == n1 * n1) {
                     System.out.println("Квадратный корень числа " + chislo + " равен " + n1);
                     break;
                 }
+                n1 = n1 - 1;
             }
         }
         if (n1 == -1) {
