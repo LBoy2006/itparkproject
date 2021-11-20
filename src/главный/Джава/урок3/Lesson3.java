@@ -1,5 +1,4 @@
 package lesson3;
-
 public class Lesson3 {
 
     public static void main(String[] args) {
@@ -18,8 +17,4 @@ public class Lesson3 {
             System.out.println(x1 + " " + x2);
         } else System.out.println("Нет действительных решений уравнения");
     }
-
-
 }
-
-
