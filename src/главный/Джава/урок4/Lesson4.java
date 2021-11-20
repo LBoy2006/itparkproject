@@ -11,7 +11,6 @@ public class Lesson4 {
         int n1 = chislo;
         if (chislo < 0) {
             System.out.println("Отрицательное число " + chislo + " не имеет квдратных корней");
-
         } else if (chislo >= 0) {
             while (n1 != -1) {
                 if (chislo == n1 * n1) {
