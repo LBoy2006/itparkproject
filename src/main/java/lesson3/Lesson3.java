@@ -16,8 +16,3 @@ public class Lesson3 {
             System.out.println(x1 + " " + x2);
         } else System.out.println("Нет действительных решений уравнения");
     }
-<<<<<<< HEAD:src/main/java/lesson3/Lesson3.java
-}
-=======
-}
->>>>>>> origin/main:src/главный/Джава/урок3/Lesson3.java
