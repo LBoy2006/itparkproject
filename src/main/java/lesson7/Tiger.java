@@ -1,13 +1,12 @@
 package lesson7;
 
-public class Dog {
+public class Tiger {
     public String nickname;
-    private static final Integer MAX_RUN = 500;
-    private static final Integer MAX_SWIM = 10;
+    private static final Integer MAX_RUN = 700;
+    private static final Integer MAX_SWIM = 30;
 
-    public Dog(String nickname) {
+    public Tiger(String nickname) {
         this.nickname = nickname;
-
     }
 
     public void run(int run) {
