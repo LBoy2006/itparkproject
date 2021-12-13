@@ -4,6 +4,10 @@ public class Sheep extends Animal {
     public Sheep(String nickname) {
         super(nickname);
         this.nickname = "Овечка " + (nickname);
-        voice = "мее";
+    }
+
+    @Override
+    public void getVoice() {
+        System.out.println(nickname + " говорит мее");
     }
 }

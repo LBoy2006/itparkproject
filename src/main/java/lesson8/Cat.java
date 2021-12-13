@@ -4,7 +4,11 @@ public class Cat extends Animal {
     public Cat(String nickname) {
         super(nickname);
         this.nickname = "Кот " + (nickname);
-        voice = "мяу";
+    }
+
+    @Override
+    public void getVoice() {
+        System.out.println(nickname + " говорит мяу");
     }
 }
 

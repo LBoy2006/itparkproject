@@ -4,6 +4,10 @@ public class Fox extends Animal {
     public Fox(String nickname) {
         super(nickname);
         this.nickname = "Лис " + (nickname);
-        voice = "фыр";
+    }
+
+    @Override
+    public void getVoice() {
+        System.out.println(nickname + " говорит фыр ");
     }
 }
